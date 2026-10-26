@@ -32,6 +32,7 @@ export type NavItem = {
  * Every module route is registered here so the sidebar stays in sync.
  */
 export const NAV_ITEMS: NavItem[] = [
+  { title: "Sensor monitoring", href: "/monitoring", icon: LayoutDashboard },
   { title: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
   { title: "Clients", href: "/clients", icon: Users },
   { title: "Deals", href: "/deals", icon: Handshake },
