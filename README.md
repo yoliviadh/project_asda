@@ -2,6 +2,12 @@
 <img src=".github/brand/banner.svg" width="100%" alt="BoomBigNose ERP · Open-source ERP for businesses of every size (AGPL-3.0)" />
 <!-- BBN:HEADER:END -->
 
+**Agroindustrial prototype:** `/` now opens the sensor monitoring dashboard at
+`/monitoring`. It runs with clearly labeled in-memory demo data without a database,
+or reads protected, site-scoped data from MongoDB. See
+[Phase 1 setup and architecture](docs/AGROINDUSTRIAL_PHASE1.md). The existing ERP
+remains available at `/dashboard` with its original setup described below.
+
 <div align="center">
 
 <h2>BoomBigNose ERP</h2>
